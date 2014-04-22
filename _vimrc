@@ -6,6 +6,9 @@ behave mswin
 set go=
 set number
 color elda
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
