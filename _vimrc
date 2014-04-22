@@ -3,9 +3,15 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+"""""""设置颜色字体GUI"""""""""""""""""""""""""""""""""""""""""""
 set go=
 set number
-color elda
+color solarized 
+set guifont=Bitstream_Vera_Sans_Mono:h11::cANSI
+
+""""""""""设置AS语法高亮“”“”“”“”“”“
+autocmd BufRead *.as set filetype=actionscript
+autocmd BufRead *.mxml set filetype=mxml
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim7.1在windows下的编码设置。By Huadong.Liu
