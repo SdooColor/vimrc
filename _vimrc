@@ -1,3 +1,13 @@
+"Vundle on Windows
+set rtp+=~\vimfiles\bundle\vundle\
+let path='~\vimfiles\bundle\'
+call vundle#begin(path)
+
+"let Vundle manage Vundle
+"required!
+Bundle 'gmarik/vundle'
+Bundle 'https://github.com/altercation/vim-colors-solarized.git'
+
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -6,7 +16,7 @@ behave mswin
 """""""设置颜色字体GUI"""""""""""""""""""""""""""""""""""""""""""
 set go=
 set number
-color solarized 
+"color solarized 
 set guifont=Bitstream_Vera_Sans_Mono:h11::cANSI
 
 """"""""""设置AS语法高亮“”“”“”“”“”“
