@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " This vimrc is based on the vimrc by Amix:
 "       http://amix.dk/vim/vimrc.html
@@ -959,3 +960,5 @@ autocmd BufRead *.mxml set filetype=mxml
 "  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 "endfunction
 
+=======
+>>>>>>> 37ee9e8879473ef75909762acba86d81421c7c10
